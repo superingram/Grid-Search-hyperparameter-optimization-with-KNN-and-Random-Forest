@@ -1,1 +1,3 @@
 # Grid-Search-hyperparameter-optimization-with-KNN-and-Random-Forest
+
+Grid search can be very effective in hyperprameter tuning because it is guaranteed to find the optimal hyperparameters for a model.  Grid search is computationally expensive, however, so a certain amount of time must be set aside for production and development.  Here, we will use the Pima Indian diabetes dataset from Kaggle to develop a KNN and Random Forest model where grid search will be performed to isolate the best model after cross-validation.  The number of nearest neighbors and the number of estimators will be optimized, respectively.
